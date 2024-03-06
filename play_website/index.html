@@ -2,13 +2,83 @@
 
 <head>
     <title>Fortnite Battle Royale</title>
+    <style>
+        h1 {
+            text-align: center;
+            color: blue;
+        }
+
+        h2 {
+            color: blue;
+        }
+
+        body {
+            background-color: lightcyan;
+        }
+
+        .HEADING {
+            text-align: center;
+        }
+
+        #logo {
+            width: 600px;
+            height: auto;
+            border: black;
+            border-radius: 0px;
+        }
+
+        #gif {
+            width: 600px;
+            height: auto;
+            border: black;
+            border-radius: 20px;
+        }
+
+        .pump {
+            color: black;
+            text-align: left;
+        }
+
+        .wallsniffer {
+            color: black;
+            text-align: left;
+        }
+
+        .pros {
+            color: black;
+        }
+
+        #clix {
+            transform: rotate(180deg);
+        }
+
+        #asianjeff {
+            transform: rotate(180deg);
+        }
+
+        .video {
+            color: black;
+        }
+
+        .bronze {
+            color: #CD7F32;
+        }
+
+        .silver {
+            color: #C0C0C0;
+        }
+    </style>
 </head>
+
+
+
+
 
 <body>
     <h1>Fortnite</h1>
-    <a href="Ranks.html">Ranks</a>
-    <h2>What Is Fortnite?</h2>
-    <h3>In Fortnite, players collaborate to survive in an open-world environment, by battling other characters who are
+    <h2 class="HEADING">What Is Fortnite? </h2>
+    <h3>In Fortnite, players collaborate to survive in an open-world environment, by battling other characters who
+        are
         controlled either by the game itself or by other players.</h3>
     <a
         href="https://static.wikia.nocookie.net/fortnite/images/4/4f/Orange_Flopper_-_Floppers_-_Fortnite.png/revision/latest/thumbnail/width/360/height/360?cb=20210302024749">Link
@@ -16,29 +86,56 @@
     <br>
     <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><button>CLICK FOR FREE COACHING!!!</button></a>
     <br>
-    <img src="https://cdn.mos.cms.futurecdn.net/MYGALMQYXkaDJUXVwitMdm-1200-80.jpg" />
+    <img id="logo" src="https://cdn.mos.cms.futurecdn.net/MYGALMQYXkaDJUXVwitMdm-1200-80.jpg" />
     <br>
-    <img src="https://j.gifs.com/XopDAg.gif" />
+    <img id="gif" src="https://j.gifs.com/XopDAg.gif" />
     <br>
-    <h1>200!</h1>
+    <h1 class="pump"> 200!</h1>
     <BR>
     <img
         src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVcldRFB76OyagP2TJxdXYEKLzUQbtV3EJOnbckJPdOZXKHJjzsbp4TTp17Nu8ZRBMdqE&usqp=CAU" />
-    <h2>This guy got full boxed and is sniffing the wall. DO NOT BE LIKE HIM!!!</h2>
-    <h1>These two guys below are Fortnite Pros:</h1>
-    <img
+    <h2 class="wallsniffer"> This guy got full boxed and is sniffing the wall. DO NOT BE LIKE HIM!!!</h2>
+    <h1 class="pros">These two guys below are Fortnite Pros:</h1>
+    <img id="asianjeff"
         src="data:image/jpeg;base64,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" />
     <h3>AsianJeff</h3>
-    <img
+    <img id="clix"
         src="https://yt3.googleusercontent.com/b5Gvn6SIoKeC8DHHj91CY6u8V2Pas62ZN4xAiF0mmmzrOftppY5wrSoS8uEfaWiSxuBRJ5_7=s176-c-k-c0x00ffffff-no-rj-mo" />
     <h3>Clix</h3>
     <hr />
     <br>
-    <h2>Video of AsianJeff hitting a clip</h2>
+    <h2 class="video"> Video of AsianJeff hitting a clip</h2>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/RosGhD0AWzU?si=Ih3MZGZYGcTBwZ0G"
         title="YouTube video player" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen></iframe>
+    <html>
+    <br>
+    <br>
+    <h1>Ranks</h1>
+    <img
+        src="https://cdn2.unrealengine.com/fortnite-ranked-play-for-battle-royale-and-zero-build-1900x600-cf35100bc70b.jpg" />
+    <h1>The Ranks in Fortnite are:</h1>
+    <h2 class="bronze">Bronze 1</h2>
+    <h2 class="bronze">Bronze 2</h2>
+    <h2 class="bronze">Bronze 3</h2>
+    <h2 class="silver">Silver 1</h2>
+    <h2 class="silver">Silver 2</h2>
+    <h2 class="silver">Silver 3</h2>
+    <h2>Gold 1</h2>
+    <h2>Gold 2</h2>
+    <h2>Gold 3</h2>
+    <h2>Platinum 1</h2>
+    <h2>Platinum 2</h2>
+    <h2>Platinum 3</h2>
+    <h2>Diamond 1</h2>
+    <h2>Diamond 2</h2>
+    <h2>Diamond 3</h2>
+    <h2>Elite</h2>
+    <h2>Champion</h2>
+    <h1>AND THE HIGHEST RANK UNREAL!</h1>
+
+    </html>
 </body>
 
 </html>
