@@ -1,10 +1,12 @@
 let enterName = prompt("Enter your name");
 let playerGuess;
-let playerFeedback = "test";
-let computerGuess;
+//let computerGuess = randomNum();
+let playerFeedback = enterName;
 loadDIV ();
 
-
+function randomNum() {
+    return Math.floor(Math.random() * (10 - 1 + 1) + 1)
+}
 
 function loadDIV () {
     document.getElementById("ScriptThisDIV").innerHTML = "<H1>Hello " + enterName + "</H1>"
