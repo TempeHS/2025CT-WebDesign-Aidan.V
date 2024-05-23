@@ -11,9 +11,13 @@
 
 <body>
 
-    <body style="background-color:#000435;"></body>
+    <style>
+        .navbar {
+            background-color: #001839;
+        }
+    </style>
     <!-- START TOP NAVIGATION -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="#000435">
+    <nav class="navbar navbar-expand-lg" data-bs-theme="dark">
 
         <div class="container-fluid">
             <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="Cubing Masters" height="100"></a>
@@ -28,20 +32,20 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="HowToSolve.html">How To Solve</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        <a class="nav-link dropdown-toggle" href="cubes.html" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            Dropdown
+                            Cubes
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="TierList.html">Tier List</a></li>
+                            <li><a class="dropdown-item" href="SpeedCubing.html">Speed Cubing</a></li>
                             <li>
+
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
@@ -58,9 +62,33 @@
 
     <!-- END TOP NAVIGATION -->
 
+    <!-- START HERO SLIDER -->
+    <div class="container">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/logo.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/cube1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/cube2.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
 
+    <!-- END HERO SLIDER -->
 
-    STUFF HERE
     <!-- DO NOT EDIT BELOW THIS LINE -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
