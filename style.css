@@ -1,10 +1,12 @@
 .container-fluid {
   background-color: #001839;
+  text-align: center;
 }
 
 
 body {
   background-image: linear-gradient(180deg, var(--bs-secondary-bg), var(--bs-body-bg) 100px, var(--bs-body-bg));
+  color: white;
 }
 
 @media (min-width: 768px) {
@@ -110,4 +112,8 @@ body {
 
 body {
   color: white;
+}
+
+h1{
+  font-weight: bold;
 }
