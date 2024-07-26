@@ -8,7 +8,7 @@
     <link rel="icon" type="image/x-icon" href="images/favicon.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet">
+    <link href="howtosolve.css" rel="stylesheet">
 </head>
 
 <body>
@@ -74,76 +74,172 @@
 
     <!-- START HOW TO SOLVE PAGE INFORMATION -->
 
+    <main>
+        <section id="introduction">
+            <h2>Introduction</h2>
+            <p>Welcome to our comprehensive guide on solving the Rubik's Cube. Whether you are a beginner looking to
+                solve
+                the cube for the first time, or an experienced solver aiming to improve your solving speed, this guide
+                will
+                provide you with the necessary steps and techniques.</p>
+        </section>
 
-
-
-    <!-- START FOOTER -->
-    <footer class="pt-4 my-md-5 pt-md-5 border-top">
-        <div class="row">
-            <div class="col-12 col-md">
-                <img class="mb-2" src="../assets/brand/bootstrap-logo.svg" alt="" width="24" height="19">
-                <small class="d-block mb-3 text-body-secondary">&copy; 2017–2024</small>
-            </div>
-            <div class="col-6 col-md">
-                <h5>Features</h5>
-                <ul class="list-unstyled text-small">
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Cool
-                            stuff</a></li>
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Random
-                            feature</a></li>
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team
-                            feature</a></li>
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Stuff
-                            for
-                            developers</a></li>
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another
-                            one</a></li>
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Last
-                            time</a></li>
-                </ul>
-            </div>
-            <div class="col-6 col-md">
-                <h5>Resources</h5>
-                <ul class="list-unstyled text-small">
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource</a>
-                    </li>
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Resource
-                            name</a></li>
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Another
-                            resource</a>
-                    </li>
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Final
-                            resource</a></li>
-                </ul>
-            </div>
-            <div class="col-6 col-md">
-                <h5>About</h5>
-                <ul class="list-unstyled text-small">
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Team</a>
-                    </li>
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Locations</a>
-                    </li>
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Privacy</a>
-                    </li>
-                    <li class="mb-1"><a class="link-secondary text-decoration-none" href="#">Terms</a>
-                    </li>
-                </ul>
+        <!-- START VIDEO -->
+        <div class="container">
+            <div class="row">
+                <div class="ratio ratio-16x9">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/7Ron6MN45LY?si=wnhCVgfnRgmVpvmu"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
             </div>
         </div>
-    </footer>
+        <!-- END VIDEO -->
+        <br>
+        <br>
+
+        <section id="step1">
+            <h2>Step 1: Solve the White Cross</h2>
+            <div class="step-content">
+                <p>To start, we need to solve the white cross. The goal is to align the white edge pieces with the
+                    center
+                    pieces on all four sides. Here’s how:</p>
+                <ul>
+                    <li>Find a white edge piece and move it to the correct position on the white face.</li>
+                    <li>Repeat this for the remaining white edge pieces, ensuring they align with the corresponding
+                        center
+                        pieces on the adjacent faces.</li>
+                </ul>
+                <img src="images/white-cross.png" alt="White Cross">
+
+            </div>
+        </section>
+
+        <section id="step2">
+            <h2>Step 2: Solve the White Corners</h2>
+            <div class="step-content">
+                <p>Next, we need to solve the white corners. The objective is to position the white corner pieces in
+                    their
+                    correct spots between the white center and the adjacent edge pieces. Here’s how:</p>
+                <ul>
+                    <li>Locate a white corner piece in the bottom layer.</li>
+                    <li>Rotate the bottom layer until the corner piece is directly below its intended position.</li>
+                    <li>Use a specific algorithm (R U R' U') to place the corner in the correct position.</li>
+                </ul>
+                <img src="images/white-corners.png" alt="White Corners">
+
+            </div>
+        </section>
+
+        <section id="step3">
+            <h2>Step 3: Solve the Middle Layer Edges</h2>
+            <div class="step-content">
+                <p>Now, we need to solve the middle layer edges. The goal is to place the edge pieces of the middle
+                    layer in
+                    their correct positions. Here’s how:</p>
+                <ul>
+                    <li>Find an edge piece in the top layer that does not contain yellow.</li>
+                    <li>Rotate the top layer until the edge piece is directly above its intended position in the middle
+                        layer.</li>
+                    <li>Use the appropriate algorithm (U R U' R' U' F' U F for right placement or U' L' U L U F U' F'
+                        for
+                        left placement) to position the edge piece correctly.</li>
+                </ul>
+                <img src="images/middle-layer.png" alt="Middle Layer">
+
+            </div>
+        </section>
+
+        <section id="step4">
+            <h2>Step 4: Solve the Yellow Cross</h2>
+            <div class="step-content">
+                <p>Next, we need to solve the yellow cross. The goal is to create a yellow cross on the top face. Here’s
+                    how:</p>
+                <ul>
+                    <li>Position the yellow edges using the F R U R' U' F' algorithm. Repeat this until you have a
+                        yellow
+                        cross on the top face.</li>
+                    <li>Ensure the yellow edge pieces align with the center pieces on the sides.</li>
+                </ul>
+                <img src="images/yellow-cross.png" alt="Yellow Cross">
+
+            </div>
+        </section>
+
+        <section id="step5">
+            <h2>Step 5: Solve the Yellow Corners</h2>
+            <div class="step-content">
+                <p>Finally, we need to solve the yellow corners. The goal is to position and orient the yellow corners
+                    correctly. Here’s how:</p>
+                <ul>
+                    <li>Position the yellow corners using the algorithm (U R U' L' U R' U' L) to move them to their
+                        correct
+                        positions.</li>
+                    <li>Orient the yellow corners using the algorithm (R U R' U R U2 R') until all the yellow corners
+                        are
+                        correctly oriented.</li>
+                </ul>
+                <img src="images/yellow-corners.png" alt="Yellow Corners">
+
+            </div>
+        </section>
+
+        <section id="quiz">
+            <h2>Quiz</h2>
+            <div class="quiz-content">
+                <p>Test your understanding of the steps:</p>
+                <div id="quiz-container"></div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- END HOW TO SOLVE PAGE INFORMATION-->
+    <!-- START FOOTER-->
+
+    <div class="container-fluid">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><span
+                    property="dct:title">Cubing
+                    Masters</span> is licensed under <a
+                    href="https://creativecommons.org/licenses/by-nd/4.0/?ref=chooser-v1" target="_blank"
+                    rel="license noopener noreferrer" style="display:inline-block;">CC BY-ND 4.0<img
+                        style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                        src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img
+                        style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                        src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img
+                        style="height:22px!important;margin-left:3px;vertical-align:text-bottom;"
+                        src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1" alt=""></a>
+            </p>
+
+            <a href="/"
+                class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <svg class="bi me-2" width="40" height="32">
+                    <use xlink:href="#bootstrap" />
+                </svg>
+            </a>
+
+            <ul class="nav col-md-4 justify-content-end">
+
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+            </ul>
+
+        </footer>
     </div>
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
 
-</body>
-
-</html>
-<!-- END FOOTER -->
-<!-- DO NOT EDIT BELOW THIS LINE -->
-<script src="darkmode.js"></script>
-<script src="script.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
+    <!-- END FOOTER -->
+    <!-- DO NOT EDIT BELOW THIS LINE -->
+    <script src="darkmode.js"></script>
+    <script src="script.js"></script>
+    <script src="howtosolve.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
