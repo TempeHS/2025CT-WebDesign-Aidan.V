@@ -19,7 +19,6 @@ document.addEventListener("DOMContentLoaded", function() {
             answers: ["Solve the yellow corners", "Solve the white corners", "Solve the middle layer"],
             correct: "Solve the white corners"
         }
-        // Add more questions as needed
     ];
 
     const quizContainer = document.getElementById('quiz-container');
